@@ -2,10 +2,11 @@
    
    class Database {
 
-    private $db_host = 'localhost';
-    private $db_name = 'sampledb';
-    private $db_username = 'root';
-    private $db_password = '';
+   
+    private $db_host = 'bzw2kynj0tcamkw0j9wn-mysql.services.clever-cloud.com';
+    private $db_name = 'bzw2kynj0tcamkw0j9wn';
+    private $db_username = 'ultyt5gonpvdkiju';
+    private $db_password = 'yjQYmZvOZpF6Z7NIKhfY';
 
     public function dbConnection (){
         try{
