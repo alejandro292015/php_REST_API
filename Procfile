@@ -1,1 +1,1 @@
-web : heroku-php-Api-React
+web : heroku/php-Api-React  
