@@ -44,6 +44,8 @@ if($stmt->rowCount() > 0){
     echo json_encode($estudiante_array);
 }else{
     echo json_encode(['menssage'=>'Estudiante no encontrado']);
+    exit()
+
 }
 
 

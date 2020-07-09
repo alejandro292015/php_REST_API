@@ -39,6 +39,7 @@ if(isset($data -> id)){
 
     }
     echo json_encode ($msg);
+    exit()
 }
 
 ?>

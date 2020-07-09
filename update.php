@@ -47,6 +47,8 @@ if($get_stmt->rowCount() > 0) {
 
 
 echo json_encode($msg);
+exit()
+
 }
 
 

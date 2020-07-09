@@ -41,5 +41,7 @@ if(isset($data->nombre) && isset($data->apellido) && isset($data->identificacion
     }
 
     echo json_encode($msg);
+    exit()
+
 }
 ?>
