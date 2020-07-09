@@ -1,1 +1,1 @@
-web : heroku/php-Api-React  
+web : vendor/bin/heroku-php-apache2 web/  
